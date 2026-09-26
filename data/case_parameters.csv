@@ -1,0 +1,22 @@
+parameter,value,unit,source
+weekend_share_1,0.20,share,Case: typical weekend distribution
+weekend_share_2,0.25,share,Case: typical weekend distribution
+weekend_share_3,0.30,share,Case: typical weekend distribution
+weekend_share_4,0.25,share,Case: typical weekend distribution
+local_population,500000,people,Case: local metropolitan area
+outer_population,700000,people,Case: 1.2M total reach minus 500k local
+marketing_spend_increase,0.20,share,Case: marketing spend up 20% vs 2025
+concert_capacity,8000,people,Case: anniversary concert venue
+booth_units,120,standard booth equivalents,Case: Part 2
+ae_booth_units,2,units per A&E booth,Case: Part 2
+operating_hours_per_day,10,hours,Case: 10 AM to 8 PM
+operating_days,8,days,Case: four weekends of Saturday and Sunday
+fb_spend,21.50,USD per participating guest,Case: midpoint of $18 to $25
+fb_participation,0.775,share,Case: midpoint of 70% to 85%
+merch_spend,16.00,USD per participating guest,Case: midpoint of $12 to $20
+merch_participation,0.325,share,Case: midpoint of 25% to 40%
+ae_spend,8.50,USD per participating guest,Case: midpoint of $5 to $12
+ae_participation,0.40,share,Case: midpoint of 30% to 50%
+option_a_hours_added,16,hours,Case: 10 to 12 hours per day across 8 days
+option_b_hours_added,40,hours,Case: four Fridays at 10 hours
+option_c_hours_added,20,hours,Case: a fifth weekend at 10 hours per day

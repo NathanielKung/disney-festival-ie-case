@@ -1,0 +1,14 @@
+comp,year,value,prior,unit,note,source_url
+Disneyland attendance,2014,16769000,,visits,TEA/AECOM Theme Index,https://queue-times.com/parks/16/attendances
+Disneyland attendance,2015,18278000,16769000,visits,60th anniversary year,https://queue-times.com/parks/16/attendances
+Disneyland attendance,2016,17943000,18278000,visits,Year after the 60th (giveback),https://queue-times.com/parks/16/attendances
+Disneyland 50th growth,2005,0.085,,share,Disneyland +8.5% (Amusement Business/ERA),https://www.themeparkinsider.com/flume/200512/2/
+Top-50 NA parks growth,2005,0.042,,share,Industry +4.2% same year,https://www.themeparkinsider.com/flume/200512/2/
+Musikfest attendance,2023,1330000,1240000,visits,40th anniversary vs prior record,https://www.pressreader.com/usa/the-morning-call/20230816/281548000428819
+Musikfest headliner tickets,2025,60800,1449000,tickets,Headliner tickets vs total attendance,https://www.artsquest.org/musikfest-2025-shatters-records-during-sun-soaked-celebration-of-music-community-and-culture/
+Minnesota State Fair Saturday,2022,198842,171054,visits,First-weekend Saturday vs Sunday,https://www.mnstatefair.org/about/attendance
+Minnesota State Fair Saturday,2023,198863,184176,visits,First-weekend Saturday vs Sunday,https://www.mnstatefair.org/about/attendance
+Minnesota State Fair Saturday,2024,184564,134644,visits,First-weekend Saturday vs Sunday,https://www.mnstatefair.org/about/attendance
+Minnesota State Fair rain day,2024,81231,135000,visits,Atypically slow day due to weather vs a normal day,https://www.yahoo.com/news/articles/minnesota-state-fair-attendance-continues-001045059.html
+Minnesota free Grandstand show,2026,7500,135000,visits,Hairball free show vs the day's attendance,https://kroc.com/2026-minnesota-state-fair-granstand-attendance/
+Summerfest attendance,2022,445611,718144,visits,2022 vs 2019 (pandemic regime evidence),https://biztimes.com/summerfest-attendance-this-year-was-far-below-pre-pandemic-levels/

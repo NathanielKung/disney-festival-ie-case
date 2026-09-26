@@ -1,0 +1,553 @@
+{
+ "baseline": {
+  "fits": {
+   "A_ols_all": 57100.0,
+   "B_loglin_all": 57262.28941028688,
+   "C_ols_recent3": 59166.666666666664,
+   "D_loglin_recent3": 59482.41971961576,
+   "E_holt": 58889.022
+  },
+  "slopes": {
+   "A_per_year": 1899.999999999997,
+   "B_cagr": 0.03719303982884514,
+   "C_per_year": 3000.000000000001,
+   "D_cagr": 0.05830052442583833
+  },
+  "holt_params": {
+   "alpha": 0.9,
+   "beta": 0.9
+  },
+  "weights": {
+   "A_ols_all": 0.15,
+   "B_loglin_all": 0.15,
+   "C_ols_recent3": 0.25,
+   "D_loglin_recent3": 0.2,
+   "E_holt": 0.25
+  },
+  "combined": 58564.74952213285,
+  "pi80_linear": [
+   53857.43161262401,
+   60342.56838737599
+  ],
+  "pi80_se": 1979.8989873223322,
+  "holdout_2024": {
+   "A_ols_all": -0.062305295950156214,
+   "B_loglin_all": -0.06231691176755431,
+   "E_holt": -0.08411214953271028,
+   "C_ols_recent3": -0.062305295950156214,
+   "D_loglin_recent3": -0.06231691176755431
+  },
+  "holdout_2025": {
+   "A_ols_all": -0.035714285714285844,
+   "B_loglin_all": -0.034943551186730475,
+   "E_holt": -0.06473214285714286,
+   "C_ols_recent3": -0.005952380952380866,
+   "D_loglin_recent3": -0.002807068480269533
+  }
+ },
+ "capture": {
+  "rings": {
+   "local_visits": 39200.0,
+   "outer_visits": 14000.0,
+   "beyond_visits": 2800.0,
+   "local_capture": 0.0784,
+   "outer_capture": 0.02,
+   "ratio_outer_to_local": 0.25510204081632654
+  },
+  "calibrated": {
+   "conv_aware_local": 0.0896,
+   "conv_unaware_local": 0.0448,
+   "implied_distance_factor": 0.3434065934065934,
+   "outer_capture_before": 0.02,
+   "outer_capture_after": 0.022307692307692303,
+   "incremental_visits": 1615.3846153846116,
+   "outer_ceiling_capture": 0.030769230769230767,
+   "outer_ceiling_visits": 21538.46153846154,
+   "local_ceiling_visits": 44800.0
+  },
+  "huff_factor_12mi_vs_45mi": {
+   "1.0": 0.26666666666666666,
+   "1.5": 0.13770607453181927,
+   "2.0": 0.07111111111111111
+  },
+  "diffusion_path": [
+   {
+    "year": 2026,
+    "awareness": 0.4498,
+    "outer_capture": 0.022304615384615385,
+    "outer_visits": 15613.23076923077
+   },
+   {
+    "year": 2027,
+    "awareness": 0.5988623848,
+    "outer_capture": 0.024597882843076922,
+    "outer_visits": 17218.517990153847
+   },
+   {
+    "year": 2028,
+    "awareness": 0.7302621132912295,
+    "outer_capture": 0.026619417127557374,
+    "outer_visits": 18633.591989290162
+   },
+   {
+    "year": 2029,
+    "awareness": 0.8320880584515162,
+    "outer_capture": 0.02818597013002333,
+    "outer_visits": 19730.179091016333
+   },
+   {
+    "year": 2030,
+    "awareness": 0.9019719107512475,
+    "outer_capture": 0.029261106319249962,
+    "outer_visits": 20482.774423474973
+   }
+  ]
+ },
+ "reach": {
+  "elasticity_low_high": [
+   1344.0,
+   2688.0
+  ],
+  "local_readings": {
+   "A_local_lift_pct": 0.005,
+   "A_local_visits": 280.0,
+   "B_intensity_change": -0.5,
+   "B_local_lift_pct": -0.06,
+   "B_local_visits": -3360.0
+  },
+  "funnel": 2975.0,
+  "bass_year_one_low_high": [
+   588.0,
+   1960.0
+  ],
+  "bass_market_potential": 19600.0,
+  "bass_path_p03": [
+   588.0,
+   787.0968,
+   1032.623744308128,
+   1318.309082170921,
+   1622.9444113384911
+  ],
+  "capture_model": 1615.3846153846116,
+  "carried": 2000,
+  "range": [
+   1000,
+   4500
+  ]
+ },
+ "anniversary": {
+  "top_down": {
+   "disneyland_60th": 0.054987476891883796,
+   "disneyland_50th": 0.043000000000000003,
+   "musikfest_40th": 0.07258064516129026,
+   "disneyland_60th_giveback": -0.018328044643834085
+  },
+  "bottom_up": {
+   "lapsed_pool": 67199.99999999999,
+   "reactivated": 2015.9999999999995,
+   "earned_media": 921.6,
+   "programming": 560.0,
+   "extra_regular_visits": 1344.0,
+   "stacked": 4841.599999999999,
+   "stacked_pct": 0.08645714285714284,
+   "netted_pct": 0.04755142857142857
+  },
+  "carried": 0.035
+ },
+ "concert": {
+  "tiers": {
+   "1M": {
+    "catchment_listeners": 1191.1764705882351,
+    "demand": 119.11764705882352,
+    "incremental": 75.04411764705881,
+    "shifted": 8.338235294117647,
+    "seat_demand": 3363.3823529411766,
+    "overflow": 0.0,
+    "per_million_incremental": 75.04411764705881
+   },
+   "5M": {
+    "catchment_listeners": 5955.882352941176,
+    "demand": 595.5882352941176,
+    "incremental": 375.2205882352941,
+    "shifted": 41.69117647058823,
+    "seat_demand": 3696.9117647058824,
+    "overflow": 0.0,
+    "per_million_incremental": 75.04411764705881
+   },
+   "10M": {
+    "catchment_listeners": 11911.764705882351,
+    "demand": 1191.1764705882351,
+    "incremental": 750.4411764705882,
+    "shifted": 83.38235294117646,
+    "seat_demand": 4113.823529411765,
+    "overflow": 0.0,
+    "per_million_incremental": 75.04411764705881
+   },
+   "20M": {
+    "catchment_listeners": 23823.529411764703,
+    "demand": 2382.3529411764703,
+    "incremental": 1500.8823529411764,
+    "shifted": 166.76470588235293,
+    "seat_demand": 4947.64705882353,
+    "overflow": 0.0,
+    "per_million_incremental": 75.04411764705881
+   },
+   "40M": {
+    "catchment_listeners": 47647.058823529405,
+    "demand": 4764.7058823529405,
+    "incremental": 3001.7647058823527,
+    "shifted": 333.52941176470586,
+    "seat_demand": 6615.2941176470595,
+    "overflow": 0.0,
+    "per_million_incremental": 75.04411764705881
+   }
+  },
+  "regional_1M": {
+   "catchment_listeners": 4764.7058823529405,
+   "demand": 714.7058823529411,
+   "incremental": 450.2647058823528,
+   "shifted": 50.02941176470588,
+   "seat_demand": 3780.2941176470586,
+   "overflow": 0.0,
+   "per_million_incremental": 450.2647058823528
+  },
+  "playlist_10M": {
+   "catchment_listeners": 5955.882352941176,
+   "demand": 357.35294117647055,
+   "incremental": 225.1323529411764,
+   "shifted": 25.01470588235294,
+   "seat_demand": 3530.1470588235297,
+   "overflow": 0.0,
+   "per_million_incremental": 22.513235294117642
+  },
+  "cml_for_2000": 26650989.61395258,
+  "carried_tier": "10M",
+  "passes_to_issue": 16000.0
+ },
+ "macro": {
+  "gas_change_pct": 0.24722222222222223,
+  "outer_visit_effect_pct": -0.04944444444444445,
+  "outer_visits_effect": -692.2222222222223,
+  "local_visits_effect": 392.0,
+  "sentiment_visits_effect": -168.0,
+  "net_attendance_pct": -0.008361111111111114,
+  "net_attendance_visits": -468.2222222222224,
+  "percap_change": -0.04,
+  "extra_fuel_cost_per_car": 3.2040000000000006
+ },
+ "bridge": {
+  "steps": [
+   [
+    "2025 actual",
+    56000
+   ],
+   [
+    "+ trend",
+    58500
+   ],
+   [
+    "+ marketing",
+    58792.49999999999
+   ],
+   [
+    "+ anniversary",
+    60850.23749999999
+   ],
+   [
+    "+ macro",
+    60363.43559999999
+   ],
+   [
+    "+ reach",
+    62363.43559999999
+   ],
+   [
+    "+ concert",
+    63163.43559999999
+   ]
+  ],
+  "fair_weather_total": 63163.43559999999
+ },
+ "simulation": {
+  "total_p10_p50_p90": [
+   59120.933949315084,
+   62115.16666788803,
+   64703.28519498239
+  ],
+  "p_over_60k": 0.8166,
+  "p_over_65k": 0.07454,
+  "weekends_p10_p50_p90": [
+   [
+    11631.356656126145,
+    12220.530095883514,
+    12729.073324632673
+   ],
+   [
+    14534.195820157682,
+    15270.662619854393,
+    15906.34165579084
+   ],
+   [
+    17427.034984189217,
+    18310.79514382527,
+    19073.60998694901
+   ],
+   [
+    15473.170462828157,
+    16298.810834312742,
+    17063.678976602725
+   ]
+  ],
+  "wk3_sat_p10_p50_p90": [
+   9584.86924130407,
+   10070.9373291039,
+   10490.485492821956
+  ],
+  "wk4_sat_p10_p50_p90": [
+   8875.008747082265,
+   9401.637466824854,
+   9954.424871350642
+  ],
+  "p_wk4_over_wk3": 0.0,
+  "p_wk4sat_over_wk3sat": 0.01717,
+  "design_day": 10070.9373291039
+ },
+ "tornado": {
+  "base": 63163.43559999999,
+  "drivers": {
+   "baseline": {
+    "low_delta": -1012.236188017494,
+    "high_delta": 694.1649477422325,
+    "swing": 1706.4011357597265
+   },
+   "marketing": {
+    "low_delta": -873.2494616996773,
+    "high_delta": 589.0147058415314,
+    "swing": 1462.2641675412087
+   },
+   "anniversary": {
+    "low_delta": -744.3254224260672,
+    "high_delta": 1196.7968777073984,
+    "swing": 1941.1223001334656
+   },
+   "macro": {
+    "low_delta": -335.330703082167,
+    "high_delta": 851.6010402614265,
+    "swing": 1186.9317433435936
+   },
+   "reach": {
+    "low_delta": -546.6483961017002,
+    "high_delta": 1138.514901660179,
+    "swing": 1685.1632977618792
+   },
+   "concert": {
+    "low_delta": -221.06304219822778,
+    "high_delta": 532.0875285556467,
+    "swing": 753.1505707538745
+   },
+   "weather": {
+    "low_delta": -4127.09435839318,
+    "high_delta": 282.22571203992993,
+    "swing": 4409.32007043311
+   }
+  }
+ },
+ "season": 62100.0,
+ "design_day": 10100.0,
+ "part2": {
+  "floors": {
+   "F&B": 48,
+   "Merch": 28,
+   "A&E": 14
+  },
+  "peak_hour_demand": {
+   "F&B": 2254.3199999999997,
+   "Merch": 541.6125000000001,
+   "A&E": 787.8
+  },
+  "service_rate": {
+   "F&B": 48.0,
+   "Merch": 20.0,
+   "A&E": 60
+  },
+  "percap_multiplier": 0.96,
+  "mixes": {
+   "profit_max": {
+    "rows": {
+     "F&B": {
+      "booths": 64,
+      "capture": 0.9203006073113041,
+      "sales": 1462691.3292058492,
+      "sales_per_booth": 22854.552018841394,
+      "wait_min": 0.0008577036996762562,
+      "contribution": 245922.9595047019,
+      "above_floor": 1.0
+     },
+     "Merch": {
+      "booths": 28,
+      "capture": 0.85,
+      "sales": 289852.99199999997,
+      "sales_per_booth": 10351.89257142857,
+      "wait_min": 2.6279931475442124,
+      "contribution": 40185.299199999994,
+      "above_floor": 1.0
+     },
+     "A&E": {
+      "booths": 14,
+      "capture": 0.85,
+      "sales": 223977.31199999998,
+      "sales_per_booth": 15998.379428571427,
+      "wait_min": 0.8597188302834323,
+      "contribution": 19318.18496,
+      "above_floor": 1.0
+     }
+    },
+    "total_contribution": 305426.4436647019,
+    "units": 120
+   },
+   "balanced": {
+    "rows": {
+     "F&B": {
+      "booths": 60,
+      "capture": 0.9066500534067282,
+      "sales": 1440995.6499066544,
+      "sales_per_booth": 24016.594165110906,
+      "wait_min": 0.004278708148059098,
+      "contribution": 238919.47798879852,
+      "above_floor": 1.0
+     },
+     "Merch": {
+      "booths": 28,
+      "capture": 0.85,
+      "sales": 289852.99199999997,
+      "sales_per_booth": 10351.89257142857,
+      "wait_min": 2.6279931475442124,
+      "contribution": 40185.299199999994,
+      "above_floor": 1.0
+     },
+     "A&E": {
+      "booths": 16,
+      "capture": 0.885609486289292,
+      "sales": 233360.50849503113,
+      "sales_per_booth": 14585.031780939446,
+      "wait_min": 0.12345201893292365,
+      "contribution": 20268.84067960249,
+      "above_floor": 1.0
+     }
+    },
+    "total_contribution": 299373.617868401,
+    "units": 120
+   },
+   "variety": {
+    "rows": {
+     "F&B": {
+      "booths": 56,
+      "capture": 0.8906614939588784,
+      "sales": 1415584.0321319075,
+      "sales_per_booth": 25278.286288069776,
+      "wait_min": 0.019423379545169924,
+      "contribution": 231470.0838558289,
+      "above_floor": 1.0
+     },
+     "Merch": {
+      "booths": 32,
+      "capture": 0.885609486289292,
+      "sales": 301995.9521700403,
+      "sales_per_booth": 9437.373505313759,
+      "wait_min": 0.16561110317147112,
+      "contribution": 42999.595217004025,
+      "above_floor": 1.0
+     },
+     "A&E": {
+      "booths": 16,
+      "capture": 0.885609486289292,
+      "sales": 233360.50849503113,
+      "sales_per_booth": 14585.031780939446,
+      "wait_min": 0.12345201893292365,
+      "contribution": 20268.84067960249,
+      "above_floor": 1.0
+     }
+    },
+    "total_contribution": 294738.5197524354,
+    "units": 120
+   }
+  },
+  "low_case_check": {
+   "rows": {
+    "F&B": {
+     "booths": 60,
+     "capture": 0.9066500534067282,
+     "sales": 1371382.333486043,
+     "sales_per_booth": 22856.372224767383,
+     "wait_min": 0.0015053646762459992,
+     "contribution": 230565.88001832517,
+     "above_floor": 1.0
+    },
+    "Merch": {
+     "booths": 28,
+     "capture": 0.85,
+     "sales": 275850.432,
+     "sales_per_booth": 9851.801142857143,
+     "wait_min": 0.752351162285878,
+     "contribution": 38785.0432,
+     "above_floor": 1.0
+    },
+    "A&E": {
+     "booths": 16,
+     "capture": 0.885609486289292,
+     "sales": 222087.053978363,
+     "sales_per_booth": 13880.440873647687,
+     "wait_min": 0.07429657933832501,
+     "contribution": 19366.96431826904,
+     "above_floor": 1.0
+    }
+   },
+   "total_contribution": 288717.88753659424,
+   "units": 120
+  }
+ },
+ "part3": {
+  "revenue_per_guest": 17.459808,
+  "options": {
+   "A": {
+    "gross": 4347.0,
+    "net_new": 1738.8000000000002,
+    "net_new_pct": 0.028000000000000004,
+    "revenue": 30359.1141504,
+    "cost": 38409.600000000006,
+    "net": -8050.485849600005,
+    "hours_added": 16,
+    "capacity_factor": 0.35,
+    "peak_relief": 2608.2
+   },
+   "B": {
+    "gross": 15369.75,
+    "net_new": 9990.3375,
+    "net_new_pct": 0.160875,
+    "revenue": 174429.3746052,
+    "cost": 92626.40000000001,
+    "net": 81802.97460519998,
+    "hours_added": 40,
+    "capacity_factor": 0.495,
+    "peak_relief": 5379.4125
+   },
+   "C": {
+    "gross": 10091.25,
+    "net_new": 6054.75,
+    "net_new_pct": 0.0975,
+    "revenue": 105714.77248799999,
+    "cost": 69313.20000000001,
+    "net": 36401.572487999976,
+    "hours_added": 20,
+    "capacity_factor": 0.65,
+    "peak_relief": 4036.5
+   }
+  },
+  "scores": {
+   "A": 2.2,
+   "B": 4.0,
+   "C": 3.05
+  },
+  "design_day_2029": 11929.500000000002
+ }
+}
