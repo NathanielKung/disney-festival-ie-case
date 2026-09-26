@@ -40,7 +40,7 @@ const bold = (t, color) => ({ text: t, options: Object.assign({ bold: true }, co
   s.addText('The 25th anniversary season: attendance forecast, vendor booth mix, and the growth path', { x: 0.7, y: 2.25, w: 8.6, h: 0.9, fontFace: BFONT, fontSize: 18, color: SKY, isTextBox: true, margin: 0 });
   s.addShape(pres.ShapeType.ellipse, { x: 0.7, y: 3.5, w: 0.22, h: 0.22, fill: { color: GOLD }, line: { color: GOLD } });
   s.addText('WDPR Fall 2026 Industrial Engineering Case Study', { x: 1.05, y: 3.45, w: 8, h: 0.35, fontFace: BFONT, fontSize: 13, color: WHITE, isTextBox: true, margin: 0 });
-  s.addText('Prepared for festival leadership   |   Team name   |   September 2026', { x: 1.05, y: 3.85, w: 8, h: 0.35, fontFace: BFONT, fontSize: 11, color: GOLD, isTextBox: true, margin: 0 });
+  s.addText('DIsnEOR   |   September 2026', { x: 1.05, y: 3.85, w: 8, h: 0.35, fontFace: BFONT, fontSize: 11, color: GOLD, isTextBox: true, margin: 0 });
   s.addNotes('Every number in this deck traces to outputs/results.json, the Excel workbook, and the GitHub repo. Rebuild in the team\'s own hands before submission; the case limits AI use to research.'); }
 
 // 2 Executive summary
